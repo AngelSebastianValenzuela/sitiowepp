@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FF4500;
+    background-size: cover;
+    text-align: center;  font-family: 'Arial', sans-serif; /* Estilo de fuente para todo el texto */
+    color: #333; /* Color de letra para todo el texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+      font-family: 'Arial', sans-serif; /* Estilo de fuente para todo el texto */
+    color: #333; /* Color de letra para todo el texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+h1 {
+    color: black;
+    font-family: 'Arial', sans-serif; /* Ejemplo de tipo de letra, puedes cambiarlo */
+    font-size: 2em; /* Tamaño del texto h1 */
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px; /* Ajusta la distancia entre el h1 y el enlace */
+    padding: 15px 30px; /* Ajusta el tamaño del enlace */
+    font-size: 1.5em; /* Ajusta el tamaño del texto del enlace */
+    background-color:  #8B0000;
+    color: black;
+    border-radius: 10px; /* Ajusta según tus preferencias */
+}

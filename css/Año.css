@@ -1,0 +1,96 @@
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+}
+
+.menu-rojo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.menu-rojo {
+    background-color: #FF4500; /* Color de fondo rojo para el menú */
+    padding: 10px; /* Espaciado interno para separar los elementos */
+    color: white; /* Color de letra blanco para contrastar con el fondo rojo */
+}
+
+.logo {
+    width: 150px; /* Tamaño pequeño del logo */
+    color: red; /* Color rojo para el logo */
+}
+
+h1 {
+    font-size: 1.5em;
+    color: white; /* Color de letra blanco */
+    text-align: center;
+}
+
+.llamar {
+    position: relative;
+}
+
+.llamar-contenido {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 250px;
+}
+
+.llamar-titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red; /* Color rojo para el título del formulario de inicio de sesión */
+}
+
+.llamar-texto {
+    margin-top: 10px;
+    color: red; /* Color rojo para el texto del formulario de inicio de sesión */
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.btn-llamar {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
+
+}
+.car-models-list {
+    list-style-type: none;
+    padding: 0;
+}
+.car-models-list li {
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.car-models-list li:hover {
+    background-color: lightgray;
+}
+
+.car-models-list a{
+
+    color: black;
+{
+

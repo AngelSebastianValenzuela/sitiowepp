@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro de Vehículo</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <div class="menu-rojo">
+        <img src="logo-armalo_tu.png" alt="Logo" class="logo">
+        <h1>CALCULA EL PRECIO DE TU SEGURO DE VEHÍCULO</h1>
+        <div class="llamar-opcion" onclick="toggleForm()">
+            <p>Llamar</p>
+        </div>
+        <div id="formulario" class="llamar hidden">
+            <div class="llamar-contenido">
+                <p class="llamar-titulo">¿Te ayudamos?</p>
+                <p class="llamar-texto">Unos de nuestros expertos te llamará totalmente GRATIS para resolver tus dudas.</p>
+                <form>
+                    <input type="text" placeholder="Nombre" class="input-nombre">
+                    <input type="text" placeholder="Apellido" class="input-apellido">
+                    <input type="text" placeholder="Teléfono" class="input-telefono">
+                    <input type="submit" value="QUIERO QUE ME LLAMEN" class="btn-llamar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+       <h1>¡Ya casi hemos terminado!</h1>
+
+ <h2>Formulario de Contacto</h2>
+  <form action="/submit_form" method="POST">
+    <div class="form-field">
+      <label for="name">Nombre:</label><br>
+      <input type="text" id="name" name="name"><br>
+    </div>
+    <div class="form-field">
+      <label for="apellido">Apellido:</label><br>
+      <input type="text" id="apellido" name="apellido"><br>
+    </div>
+    <div class="form-field">
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+    </div>
+    <div class="form-field">
+      <label for="celular">Celular:</label><br>
+      <input type="text" id="celular" name="celular"><br>
+    </div>
+    <div class="form-field">
+      <label for="telefono">Teléfono:</label><br>
+      <input type="tel" id="telefono" name="telefono"><br>
+    </div>
+        <a href="Seguros para Vehiculos.html" class="submit-button">QUIERO COTIZAR</a>
+    </div>
+  </form>
+</body>
+</html>
